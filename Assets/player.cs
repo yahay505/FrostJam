@@ -7,7 +7,7 @@ public class player : MonoBehaviour
 {
     public SpriteRenderer colorrenderer;
     public Color[] colors;
-    public Transform arrow;
+    public Transform arrow,anchor;
     private Vector3 mousePos;
     public bool isSafe, Ground1, Ground2, Ground3, Ground4, Ground5, Ground6;
 
@@ -30,6 +30,7 @@ public class player : MonoBehaviour
         {
             Time.timeScale = .2f;
             mousePos = Input.mousePosition;
+
         }
         if (Input.GetMouseButtonUp(1))
         {
@@ -49,10 +50,13 @@ public class player : MonoBehaviour
             Debug.Log(angle);
             SetColorByAngle(angle);
             arrow.gameObject.SetActive(true);
+            anchor.gameObject.SetActive(true);
+            anchor.position = Camera.main.ScreenToWorldPoint(mousePos)+new Vector3(0,0,11);
             arrow.rotation=Quaternion.Euler(0,0, angle);
         }
         else
         {
+            anchor.gameObject.SetActive(false);
             arrow.gameObject.SetActive(false);
         }
     }
