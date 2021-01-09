@@ -7,12 +7,13 @@ public class player : MonoBehaviour
 {
     public SpriteRenderer colorrenderer;
     public Color[] colors;
-    public Transform arrow,anchor;
+    public Transform arrow,anchor,wheel;
     private Vector3 mousePos;
     public bool isSafe;
     public bool[] ground = new bool[6];
     public int currentcolor;
     public float speed;
+    public Animator animator;
     private Rigidbody2D rb;
     
     void Start()
@@ -50,6 +51,14 @@ public class player : MonoBehaviour
         }
         rb.velocity.Normalize();
         rb.velocity *= speed;
+        animator.SetFloat("magnitute", rb.velocity.magnitude);
+        if (rb.velocity.magnitude>0.1f)
+        {
+            animator.SetFloat("x", rb.velocity.x);
+            animator.SetFloat("y", rb.velocity.y);
+            animator.SetFloat("oldX", rb.velocity.x);
+            animator.SetFloat("oldY", rb.velocity.x);
+        }
     }
 
     private void ProccessGroundColors()
@@ -97,6 +106,7 @@ public class player : MonoBehaviour
             SetColorByAngle(angle);
             arrow.gameObject.SetActive(true);
             anchor.gameObject.SetActive(true);
+            wheel.gameObject.SetActive(true);
             anchor.position = Camera.main.ScreenToWorldPoint(mousePos)+new Vector3(0,0,11);
             arrow.rotation=Quaternion.Euler(0,0, angle);
         }
@@ -104,6 +114,7 @@ public class player : MonoBehaviour
         {
             anchor.gameObject.SetActive(false);
             arrow.gameObject.SetActive(false);
+            wheel.gameObject.SetActive(false);
         }
     }
 
