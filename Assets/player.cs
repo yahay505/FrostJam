@@ -57,7 +57,7 @@ public class player : MonoBehaviour
             animator.SetFloat("x", rb.velocity.x);
             animator.SetFloat("y", rb.velocity.y);
             animator.SetFloat("oldX", rb.velocity.x);
-            animator.SetFloat("oldY", rb.velocity.x);
+            animator.SetFloat("oldY", rb.velocity.y);
         }
     }
 
