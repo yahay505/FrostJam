@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cda6137a88c885418a69670df4a3f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areasize: {x: 10, y: 10}
+  areasize: {x: 10, y: 20}
   offset: {x: 0, y: 0}
   target: {x: 0, y: 0, z: 0}
   speed: 5
@@ -844,7 +844,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 1030859665}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &405723589
 MonoBehaviour:
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cda6137a88c885418a69670df4a3f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areasize: {x: 10, y: 10}
+  areasize: {x: 10, y: 20}
   offset: {x: 0, y: 0}
   target: {x: 0, y: 0, z: 0}
   speed: 5
@@ -1753,9 +1753,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 10f083bfd49ef704db88feb8b9d5c745, type: 3}
-  m_Color: {r: 1, g: 0.051886797, b: 0.21472259, a: 0.13333334}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.4627451}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1777,7 +1777,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 1}
   m_Children: []
   m_Father: {fileID: 1030859665}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &720734339
 GameObject:
@@ -1789,7 +1789,6 @@ GameObject:
   m_Component:
   - component: {fileID: 720734342}
   - component: {fileID: 720734340}
-  - component: {fileID: 720734341}
   m_Layer: 0
   m_Name: mask
   m_TagString: Untagged
@@ -1837,36 +1836,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 247c30602d6452f46afa0417db3f77b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a447655d1f0872344adfd6ac8f2c2cbb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &720734341
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720734339}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5ada70be6c560f5419e52a6ffa3fda57, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &720734342
 Transform:
   m_ObjectHideFlags: 0
@@ -7463,7 +7443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cda6137a88c885418a69670df4a3f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areasize: {x: 10, y: 10}
+  areasize: {x: 10, y: 20}
   offset: {x: 0, y: 0}
   target: {x: 0, y: 0, z: 0}
   speed: 5
@@ -7557,11 +7537,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030859664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalPosition: {x: 0, y: 7.59, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 405723588}
   - {fileID: 636224561}
+  - {fileID: 405723588}
   - {fileID: 2117971715}
   - {fileID: 387437454}
   - {fileID: 925576380}
@@ -7697,7 +7677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cda6137a88c885418a69670df4a3f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areasize: {x: 10, y: 10}
+  areasize: {x: 10, y: 20}
   offset: {x: 0, y: 0}
   target: {x: 0, y: 0, z: 0}
   speed: 5
@@ -8177,7 +8157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cda6137a88c885418a69670df4a3f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areasize: {x: 10, y: 10}
+  areasize: {x: 10, y: 20}
   offset: {x: 0, y: 0}
   target: {x: 0, y: 0, z: 0}
   speed: 5
@@ -8734,7 +8714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cda6137a88c885418a69670df4a3f80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areasize: {x: 10, y: 10}
+  areasize: {x: 10, y: 20}
   offset: {x: 0, y: 0}
   target: {x: 0, y: 0, z: 0}
   speed: 5
