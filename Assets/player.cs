@@ -9,11 +9,15 @@ public class player : MonoBehaviour
     public Color[] colors;
     public Transform arrow,anchor;
     private Vector3 mousePos;
-    public bool isSafe, Ground1, Ground2, Ground3, Ground4, Ground5, Ground6;
-
+    public bool isSafe;
+    public bool[] ground = new bool[6];
+    public int currentcolor;
+    public float speed;
+    private Rigidbody2D rb;
     
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         colors = Constants.constants.Colors;
     }
 
@@ -21,6 +25,48 @@ public class player : MonoBehaviour
     void Update()
     {
         ProccessCollorWheel();
+        ProccessGroundColors();
+        ProccessMovement();
+    }
+
+    private void ProccessMovement()
+    {
+        rb.velocity = Vector2.zero;
+        if (Input.GetKey(KeyCode.W))
+        {
+            rb.velocity += Vector2.up;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            rb.velocity += Vector2.down;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            rb.velocity += Vector2.left;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity += Vector2.right;
+        }
+        rb.velocity.Normalize();
+        rb.velocity *= speed;
+    }
+
+    private void ProccessGroundColors()
+    {
+        if (isSafe)
+        {
+            return;
+        }
+        if (!ground[currentcolor])
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        Debug.Log("die");
     }
 
     private void ProccessCollorWheel()
@@ -68,14 +114,18 @@ public class player : MonoBehaviour
             if (angle+90>120)
             {
                 colorrenderer.color = colors[0];
+                currentcolor = 0;
             }
             else if (angle+90>60)
             {
                 colorrenderer.color = colors[1];
+                currentcolor = 1;
+
             }
             else
             {
                 colorrenderer.color = colors[2];
+                currentcolor = 2;
             }
         }
         else
@@ -83,14 +133,17 @@ public class player : MonoBehaviour
             if (angle+90<-120)
             {
                 colorrenderer.color = colors[3];
+                currentcolor = 3;
             }
             else if (angle+90 <-60)
             {
                 colorrenderer.color = colors[4];
+                currentcolor = 4;
             }
             else
             {
                 colorrenderer.color = colors[5];
+                currentcolor = 5;
             }
         }
     }
