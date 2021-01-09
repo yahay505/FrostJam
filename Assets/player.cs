@@ -6,14 +6,15 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public SpriteRenderer colorrenderer;
-    public Color[] colors=Constants.constants.Colors;
+    public Color[] colors;
     public Transform arrow;
     private Vector3 mousePos;
+    public bool isSafe, Ground1, Ground2, Ground3, Ground4, Ground5, Ground6;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
-        
+        colors = Constants.constants.Colors;
     }
 
     // Update is called once per frame
@@ -58,13 +59,13 @@ public class player : MonoBehaviour
 
     private void SetColorByAngle(float angle)
     {
-        if (angle>0)
+        if (angle+90>0)
         {
-            if (angle>120)
+            if (angle+90>120)
             {
                 colorrenderer.color = colors[0];
             }
-            else if (angle>60)
+            else if (angle+90>60)
             {
                 colorrenderer.color = colors[1];
             }
@@ -75,11 +76,11 @@ public class player : MonoBehaviour
         }
         else
         {
-            if (angle<-120)
+            if (angle+90<-120)
             {
                 colorrenderer.color = colors[3];
             }
-            else if (angle <-60)
+            else if (angle+90 <-60)
             {
                 colorrenderer.color = colors[4];
             }
