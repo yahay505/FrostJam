@@ -6,7 +6,8 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public SpriteRenderer colorrenderer;
-    public Color[] colors;
+    public Color[] colors=Constants.constants.Colors;
+    public Transform arrow;
     private Vector3 mousePos;
 
     // Start is called before the first frame update
@@ -23,6 +24,7 @@ public class player : MonoBehaviour
 
     private void ProccessCollorWheel()
     {
+ 
         if (Input.GetMouseButtonDown(1))
         {
             Time.timeScale = .2f;
@@ -31,12 +33,26 @@ public class player : MonoBehaviour
         if (Input.GetMouseButtonUp(1))
         {
             Time.timeScale = 1;
-            Vector2 v2 =  new Vector2( Input.mousePosition.x, Input.mousePosition.y) - new Vector2(mousePos.x,mousePos.y);
+            Vector2 v2 = new Vector2(Input.mousePosition.x, Input.mousePosition.y) - new Vector2(mousePos.x, mousePos.y);
 
- 
-            float angle = Mathf.Atan2(v2.y, v2.x) * Mathf.Rad2Deg;
+            float angle = Mathf.Atan2(v2.y, v2.x) * Mathf.Rad2Deg - 90f;
             Debug.Log(angle);
             SetColorByAngle(angle);
+        }
+        if (Input.GetMouseButton(1))
+        {
+            Vector2 v2 = new Vector2(Input.mousePosition.x, Input.mousePosition.y) - new Vector2(mousePos.x, mousePos.y);
+
+
+            float angle = Mathf.Atan2(v2.y, v2.x) * Mathf.Rad2Deg-90f;
+            Debug.Log(angle);
+            SetColorByAngle(angle);
+            arrow.gameObject.SetActive(true);
+            arrow.rotation=Quaternion.Euler(0,0, angle);
+        }
+        else
+        {
+            arrow.gameObject.SetActive(false);
         }
     }
 
