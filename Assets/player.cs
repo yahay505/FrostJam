@@ -36,6 +36,41 @@ public class player : MonoBehaviour
  
             float angle = Mathf.Atan2(v2.y, v2.x) * Mathf.Rad2Deg;
             Debug.Log(angle);
+            SetColorByAngle(angle);
+        }
+    }
+
+    private void SetColorByAngle(float angle)
+    {
+        if (angle>0)
+        {
+            if (angle>120)
+            {
+                colorrenderer.color = colors[0];
+            }
+            else if (angle>60)
+            {
+                colorrenderer.color = colors[1];
+            }
+            else
+            {
+                colorrenderer.color = colors[2];
+            }
+        }
+        else
+        {
+            if (angle<-120)
+            {
+                colorrenderer.color = colors[3];
+            }
+            else if (angle <-60)
+            {
+                colorrenderer.color = colors[4];
+            }
+            else
+            {
+                colorrenderer.color = colors[5];
+            }
         }
     }
 }
