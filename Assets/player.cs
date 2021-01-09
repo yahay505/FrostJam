@@ -93,7 +93,7 @@ public class player : MonoBehaviour
             Vector2 v2 = new Vector2(Input.mousePosition.x, Input.mousePosition.y) - new Vector2(mousePos.x, mousePos.y);
 
             float angle = Mathf.Atan2(v2.y, v2.x) * Mathf.Rad2Deg - 90f;
-            Debug.Log(angle);
+            //Debug.Log(angle);
             SetColorByAngle(angle);
         }
         if (Input.GetMouseButton(1))
@@ -102,7 +102,7 @@ public class player : MonoBehaviour
 
 
             float angle = Mathf.Atan2(v2.y, v2.x) * Mathf.Rad2Deg-90f;
-            Debug.Log(angle);
+            //Debug.Log(angle);
             SetColorByAngle(angle);
             arrow.gameObject.SetActive(true);
             anchor.gameObject.SetActive(true);

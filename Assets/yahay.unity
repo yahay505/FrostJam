@@ -1094,7 +1094,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626545031}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &533587312
 TilemapRenderer:
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5682b9f2c781d84c970b3abe3ad14bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundtype: 5
+  groundtype: 3
 --- !u!19719996 &533587315
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -1913,7 +1913,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626545031}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &767689668
 TilemapRenderer:
@@ -2224,7 +2224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5682b9f2c781d84c970b3abe3ad14bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundtype: 3
+  groundtype: 4
 --- !u!19719996 &767689671
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -2305,7 +2305,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626545031}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &783858362
 TilemapRenderer:
@@ -2589,7 +2589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5682b9f2c781d84c970b3abe3ad14bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundtype: 1
+  groundtype: 5
 --- !u!19719996 &783858365
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -7809,11 +7809,11 @@ Transform:
   m_Children:
   - {fileID: 576175294}
   - {fileID: 292075022}
-  - {fileID: 783858361}
-  - {fileID: 1840218440}
-  - {fileID: 767689667}
   - {fileID: 1740899227}
+  - {fileID: 1840218440}
   - {fileID: 533587311}
+  - {fileID: 767689667}
+  - {fileID: 783858361}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7849,7 +7849,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626545031}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1740899228
 TilemapRenderer:
@@ -8115,7 +8115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5682b9f2c781d84c970b3abe3ad14bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundtype: 4
+  groundtype: 1
 --- !u!19719996 &1740899231
 TilemapCollider2D:
   m_ObjectHideFlags: 0
