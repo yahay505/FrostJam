@@ -199,7 +199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23062633}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4, y: -13.34, z: 0}
+  m_LocalPosition: {x: 0.2, y: -0.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5510,13 +5510,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e0c2f6f49d3b94ab0dd0fca4309d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TEXT: "hey, my love. \xFC \xFC My burning desire for you is giving me such pain
-    but to be reminded of you is worth the pain. the burning candle that is my heart
-    can hurt fingers if touched but forget not, that it only burns for you and you
-    only. i wish you were here, i wish i could feel your sweet and tender lips on
-    mine. I wish I could feel you soft touch laced through my fingers. I miss you.
-    Your sweet and loving scent is still lingering on the tip of my nose and you
-    shadows are reflecting through my eyes. \xFC \xFC I hope to see you soon. "
+  TEXT: "My dear love, \xFC \xFC My burning desire for you is giving me such pain
+    but to be reminded of you is worth the pain. The burning candle that is my heart
+    can hurt fingers if touched but forget not, that it burns for you and you only.
+    I wish you were here, I wish I could feel your sweet and tender lips on mine.
+    I wish I could feel your soft touch laced through my fingers. I miss you. Your
+    sweet and loving scent is still lingering on the tip of my nose and your shadows
+    are reflecting through my eyes. I hope to see you soon. \xFC \xFC  Yours forever, "
   framePerBeat: 10
   LetterPerBeat: 1
 --- !u!222 &1750662149
