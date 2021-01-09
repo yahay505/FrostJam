@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 86acfb3addd249b48b4cc15c174c1524
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8821300619053577891
+    second: Adsz_Resim_0
+  - first:
+      213: -6666478729877031274
+    second: Adsz_Resim_1
+  - first:
+      213: -5340499753168385348
+    second: Adsz_Resim_2
+  - first:
+      213: -2908800669773775410
+    second: Adsz_Resim_3
+  - first:
+      213: 6011395600013833088
+    second: Adsz_Resim_4
+  - first:
+      213: 8319324117341746879
+    second: Adsz_Resim_5
+  - first:
+      213: -5155198775570819157
+    second: Adsz_Resim_0
+  - first:
+      213: 6826320808744417806
+    second: Adsz_Resim_1
+  - first:
+      213: -6768714512591606538
+    second: Adsz_Resim_2
+  - first:
+      213: 1171213053887160829
+    second: Adsz_Resim_3
+  - first:
+      213: 173616790351462661
+    second: Adsz_Resim_4
+  - first:
+      213: 2914824217746874382
+    second: Adsz_Resim_5
+  - first:
+      213: -8626303241571283649
+    second: Adsz_Resim_6
+  - first:
+      213: 1644171503412669946
+    second: Adsz_Resim_7
+  - first:
+      213: -5559042152062355703
+    second: Adsz_Resim_8
+  - first:
+      213: 3430159180497868582
+    second: Adsz_Resim_9
+  - first:
+      213: 6974377003094790502
+    second: Adsz_Resim_10
+  - first:
+      213: -7158775467215891440
+    second: Adsz_Resim_11
+  - first:
+      213: -6118964323362787102
+    second: Adsz_Resim_12
+  - first:
+      213: -6557374453304107598
+    second: Adsz_Resim_13
+  - first:
+      213: -6802381759032054410
+    second: Adsz_Resim_14
+  - first:
+      213: 4705493549906097270
+    second: Adsz_Resim_15
+  - first:
+      213: 7334613638784377085
+    second: Adsz_Resim_16
+  - first:
+      213: -3649794582146483785
+    second: Adsz_Resim_17
+  - first:
+      213: -679630212826774629
+    second: Adsz_Resim_18
+  - first:
+      213: -8872724514083569232
+    second: Adsz_Resim_19
+  - first:
+      213: 5401317273072756530
+    second: Adsz_Resim_20
+  - first:
+      213: -6917825259566245388
+    second: Adsz_Resim_21
+  - first:
+      213: -5577311276368237848
+    second: Adsz_Resim_22
+  - first:
+      213: 7090190222343098958
+    second: Adsz_Resim_23
+  - first:
+      213: -1449333061131105738
+    second: Adsz_Resim_24
+  - first:
+      213: 8615362994933543645
+    second: Adsz_Resim_25
+  - first:
+      213: -4779770350961907325
+    second: Adsz_Resim_26
+  - first:
+      213: -7248798670815460412
+    second: Adsz_Resim_27
+  - first:
+      213: 5188096653039336781
+    second: Adsz_Resim_28
+  - first:
+      213: 3778360226097497750
+    second: Adsz_Resim_29
+  - first:
+      213: -3978945599458460362
+    second: Adsz_Resim_30
+  - first:
+      213: 5921244848053330593
+    second: Adsz_Resim_31
+  - first:
+      213: -7294528855529576099
+    second: Adsz_Resim_32
+  - first:
+      213: 660632756058402866
+    second: Adsz_Resim_33
+  - first:
+      213: -4435219290983113883
+    second: Adsz_Resim_34
+  - first:
+      213: -5037440579172650478
+    second: Adsz_Resim_35
+  - first:
+      213: 8190427873242465555
+    second: Adsz_Resim_36
+  - first:
+      213: 492342688984488678
+    second: Adsz_Resim_37
+  - first:
+      213: 1356343696051164452
+    second: Adsz_Resim_38
+  - first:
+      213: 9076745041625579894
+    second: Adsz_Resim_39
+  - first:
+      213: 5188537031253215982
+    second: Adsz_Resim_40
+  - first:
+      213: 5159487891030059556
+    second: Adsz_Resim_41
+  - first:
+      213: 1817659947315189543
+    second: Adsz_Resim_42
+  - first:
+      213: 5801734142907391566
+    second: Adsz_Resim_43
+  - first:
+      213: -4809403818658945321
+    second: Adsz_Resim_44
+  - first:
+      213: -2812951860676457289
+    second: Adsz_Resim_45
+  - first:
+      213: -3855765741972665692
+    second: Adsz_Resim_46
+  - first:
+      213: -1917214754247538923
+    second: Adsz_Resim_47
+  - first:
+      213: -5481801551131264335
+    second: Adsz_Resim_48
+  - first:
+      213: -1357906336851756921
+    second: Adsz_Resim_49
+  - first:
+      213: -1401471202062772174
+    second: Adsz_Resim_50
+  - first:
+      213: 7960812155208402284
+    second: Adsz_Resim_51
+  - first:
+      213: 6951023756487133237
+    second: Adsz_Resim_52
+  - first:
+      213: 6182309135930975790
+    second: Adsz_Resim_53
+  - first:
+      213: 8210257604911517446
+    second: Adsz_Resim_54
+  - first:
+      213: -382277014005281187
+    second: Adsz_Resim_55
+  - first:
+      213: -9187558728004844271
+    second: Adsz_Resim_56
+  - first:
+      213: 6915198918157728583
+    second: Adsz_Resim_57
+  - first:
+      213: 6546864535732910454
+    second: Adsz_Resim_58
+  - first:
+      213: -4264463360786278982
+    second: Adsz_Resim_59
+  - first:
+      213: -2831938346622177173
+    second: Adsz_Resim_60
+  - first:
+      213: 3688880643303276290
+    second: Adsz_Resim_61
+  - first:
+      213: 7932992418913324238
+    second: Adsz_Resim_62
+  - first:
+      213: 7924572334722917060
+    second: Adsz_Resim_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adsz_Resim_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7929be60e0578b0800000000000000
+      internalID: -5155198775570819157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adsz_Resim_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0a7110bb96fbbe50800000000000000
+      internalID: 6826320808744417806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adsz_Resim_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc22f25302b012a0800000000000000
+      internalID: -6768714512591606538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adsz_Resim_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ae31311cf04010800000000000000
+      internalID: 1171213053887160829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
