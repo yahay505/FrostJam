@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
+    public static player currentplayer;
     public SpriteRenderer colorrenderer;
     public Color[] colors;
     public Transform arrow,anchor,wheel;
@@ -18,6 +19,7 @@ public class player : MonoBehaviour
     
     void Start()
     {
+        currentplayer = this;
         rb = GetComponent<Rigidbody2D>();
         colors = Constants.constants.Colors;
     }
@@ -73,7 +75,7 @@ public class player : MonoBehaviour
         }
     }
 
-    private void Die()
+    public void Die()
     {
         Debug.Log("die");
     }
