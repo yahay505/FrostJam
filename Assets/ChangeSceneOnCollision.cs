@@ -15,4 +15,10 @@ public class ChangeSceneOnCollision : MonoBehaviour
         SceneManager.LoadScene(NextScene, LoadSceneMode.Single);
 
     }
+    
+public void loadScene()
+    {
+        SceneManager.LoadScene(NextScene, LoadSceneMode.Single);
+
+    }
 }

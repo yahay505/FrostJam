@@ -6,12 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/yahay.unity
-    guid: 578dd1eaeb3ef5c47b0fb38e0992ea3a
+    path: Assets/Scenes/title.unity
+    guid: 9db502b69de9bee4c9d831c42633fd4d
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/cutscene 1.unity
+    guid: c5a1e69dd8160c043b205471dc960500
+  - enabled: 1
+    path: Assets/Scenes/cutscenes/cutscene 2.unity
+    guid: 6e66915bd46ea5d4a8095735c8618164
   - enabled: 1
     path: Assets/Scenes/level 1.unity
     guid: c41ad1dee7e8865498443fbfb179b36b
   - enabled: 1
     path: Assets/Scenes/mektup 1.unity
     guid: cdf1765d7eccfb34c9744322b97614cb
+  - enabled: 1
+    path: Assets/yahay.unity
+    guid: 578dd1eaeb3ef5c47b0fb38e0992ea3a
   m_configObjects: {}
