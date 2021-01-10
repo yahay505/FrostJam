@@ -5668,7 +5668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66e0c2f6f49d3b94ab0dd0fca4309d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TEXT: "+oh how my eyes longed to see you \xFC \xFC- I missed you too... If it wasn't
+  TEXT: "+oh how my eyes longed to see you \xFC \xFC-I missed you too... If it wasn't
     for your letters i wouldn't be here "
   framePerBeat: 10
   LetterPerBeat: 1
