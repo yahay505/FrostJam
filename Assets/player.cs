@@ -158,7 +158,7 @@ public class player : MonoBehaviour
             //Debug.Log(angle);
             if (v2.magnitude>150)
             {
-                SetColorByAngle(angle);
+                //SetColorByAngle(angle);
             }
 
             arrow.gameObject.SetActive(true);
