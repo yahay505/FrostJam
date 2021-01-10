@@ -5594,7 +5594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TEXT: "+I guess I won't have to write to you anymore?  \xFC \xFC-No, now we will
     write our story. "
-  framePerBeat: 10
+  framePerBeat: 20
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:

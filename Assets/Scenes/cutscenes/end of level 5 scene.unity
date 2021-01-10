@@ -5593,7 +5593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TEXT: '"isim", YOU FINNALY FOUND MEE'
-  framePerBeat: 10
+  framePerBeat: 15
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:
