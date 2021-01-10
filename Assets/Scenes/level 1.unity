@@ -32999,7 +32999,7 @@ MonoBehaviour:
   isSafe: 1
   ground: 000000000000
   currentcolor: 0
-  speed: 10
+  speed: 5
   animator: {fileID: 1711729274}
   DieSound: {fileID: 1711729282}
   stepSound: {fileID: 1711729281}
