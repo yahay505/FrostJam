@@ -156,7 +156,11 @@ public class player : MonoBehaviour
 
             float angle = Mathf.Atan2(v2.y, v2.x) * Mathf.Rad2Deg-90f;
             //Debug.Log(angle);
-            SetColorByAngle(angle);
+            if (v2.magnitude>150)
+            {
+                SetColorByAngle(angle);
+            }
+
             arrow.gameObject.SetActive(true);
             anchor.gameObject.SetActive(true);
             wheel.gameObject.SetActive(true);

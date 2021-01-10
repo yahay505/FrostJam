@@ -22,7 +22,16 @@ public class textTyper : MonoBehaviour
         currentframe++;
         if (currentframe==framePerBeat)
         {
-            currentframe = 0;
+
+                try
+                {
+                    GetComponent<AudioSource>().Play();
+                }
+                catch (System.Exception)
+                {
+
+                }
+                currentframe = 0;
             currentBeat++;
 
 
