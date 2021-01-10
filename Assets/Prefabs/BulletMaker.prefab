@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8559e96f029cbf74fbfa27f4ff9b1c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootTime: 150
+  shootTime: 10
   prefab: {fileID: 6971465394446372614, guid: c9d8123a0e368f244bd2813548624f36, type: 3}
 --- !u!212 &2471063287178254322
 SpriteRenderer:
