@@ -179,7 +179,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4804bc09db0699443a599112ede13230, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -203,7 +203,7 @@ Transform:
   m_LocalScale: {x: 1.5926346, y: 1.3121914, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &221552587
 GameObject:
@@ -285,7 +285,7 @@ Transform:
   m_LocalScale: {x: 3.0169902, y: 3.0169902, z: 3.0169902}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -517,7 +517,7 @@ Transform:
   m_LocalScale: {x: 3.0313413, y: 3.0313413, z: 3.0313413}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &876899909
 GameObject:
@@ -5667,7 +5667,7 @@ RectTransform:
   m_Children:
   - {fileID: 1750662147}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5731,7 +5731,7 @@ MonoBehaviour:
     going to give you the biggest squeeze. To feel your heart beating though mine
     is my only remedy in this cold, freezing, damned place. Keep safe. \xFC \xFC
     All my heart, "
-  framePerBeat: 15
+  framePerBeat: 5
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:
@@ -5788,8 +5788,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5824,7 +5824,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 149.92622, y: 181.30252, z: 157.81708, w: 145.98077}
+  m_margin: {x: -1.3058624, y: 48.974823, z: 89.76276, w: 96.83029}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

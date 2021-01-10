@@ -5762,7 +5762,7 @@ MonoBehaviour:
     are present in every second I am awake and in my dreams. If only you were a book
     and I could read more of you than to write about you. Hope to see you soon. \xFC
     \xFC Longing for you, "
-  framePerBeat: 10
+  framePerBeat: 5
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:

@@ -5834,7 +5834,7 @@ MonoBehaviour:
   TEXT: "I saw the meaning of my life falling to a nearby planet when the explosion
     came. The cord that helped me connect to the universe got out of my life and
     I decided I will find him whatever happens. \xFCHere I goo"
-  framePerBeat: 15
+  framePerBeat: 5
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:

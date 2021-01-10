@@ -5762,7 +5762,7 @@ MonoBehaviour:
     I wish I could feel your soft touch laced through my fingers. I miss you. Your
     sweet and loving scent is still lingering on the tip of my nose and your shadows
     are reflecting through my eyes. I hope to see you soon. \xFC \xFC  Yours forever, "
-  framePerBeat: 15
+  framePerBeat: 5
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:
