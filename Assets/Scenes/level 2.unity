@@ -3063,7 +3063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: febd555c13544eb4b900e57cdb9c2381, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: 4
+  NextScene: 6
 --- !u!4 &879273131
 Transform:
   m_ObjectHideFlags: 0
