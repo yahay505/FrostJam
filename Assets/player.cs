@@ -2,11 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
     public static player currentplayer;
     public SpriteRenderer colorrenderer;
+    public GameObject particle;
     public Color[] colors;
     public Transform arrow,anchor,wheel;
     private Vector3 mousePos;
@@ -16,9 +18,11 @@ public class player : MonoBehaviour
     public float speed;
     public Animator animator;
     private Rigidbody2D rb;
+    public AudioSource DieSound,stepSound,alteredTimeSound;
     
     void Start()
     {
+        Time.timeScale = 1;
         currentplayer = this;
         rb = GetComponent<Rigidbody2D>();
         colors = Constants.constants.Colors;
@@ -30,6 +34,35 @@ public class player : MonoBehaviour
         ProccessCollorWheel();
         ProccessGroundColors();
         ProccessMovement();
+        ProccessSound();
+    }
+    private float timeSinceStep;
+    private void ProccessSound()
+    {
+        
+        if (rb.velocity.magnitude>0.1f)
+        {
+            timeSinceStep += Time.deltaTime;
+            if (timeSinceStep>=.25f)
+            {
+                stepSound.Play();
+                timeSinceStep = 0f;
+            }
+        }
+        else
+        {
+            timeSinceStep = 0;
+
+        }
+        if (Time.timeScale==1)
+        {
+            alteredTimeSound.enabled = false;
+        }
+        else
+        {
+            alteredTimeSound.enabled = true;
+
+        }
     }
 
     private void ProccessMovement()
@@ -77,9 +110,27 @@ public class player : MonoBehaviour
 
     public void Die()
     {
+        Time.timeScale = 1;
+        this.enabled = false;
         Debug.Log("die");
+        particle.SetActive(true);
+        this.Invoke("resetlvl", 1);
+        PlayDieSound();
+        transform.DetachChildren();
+        colorrenderer.gameObject.SetActive(false) ;
+        GetComponent<SpriteRenderer>().enabled = false;
     }
 
+    public void PlayDieSound()
+    {
+        DieSound.Play();
+    }
+
+    public void resetlvl()
+    {
+        Debug.LogError("loaded");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
     private void ProccessCollorWheel()
     {
  
