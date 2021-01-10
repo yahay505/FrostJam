@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorrenderer: {fileID: 0}
+  particle: {fileID: 0}
   colors: []
   arrow: {fileID: 0}
   anchor: {fileID: 0}
@@ -163,6 +164,9 @@ MonoBehaviour:
   currentcolor: 0
   speed: 0
   animator: {fileID: 0}
+  DieSound: {fileID: 0}
+  stepSound: {fileID: 0}
+  alteredTimeSound: {fileID: 0}
 --- !u!212 &33176363
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1125,11 +1129,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408202661905417844, guid: 78291fdc37df7cd4ab6303edaee12114, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.796322
+      value: 13.12
       objectReference: {fileID: 0}
     - target: {fileID: 1408202661905417844, guid: 78291fdc37df7cd4ab6303edaee12114, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.9668121
+      value: 2.69
       objectReference: {fileID: 0}
     - target: {fileID: 1408202661905417844, guid: 78291fdc37df7cd4ab6303edaee12114, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1153,7 +1157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1408202661905417844, guid: 78291fdc37df7cd4ab6303edaee12114, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1408202661905417844, guid: 78291fdc37df7cd4ab6303edaee12114, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
