@@ -5639,7 +5639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TEXT: HEY, YOU FINNALY FOUND ME!!
   framePerBeat: 15
-  LetterPerBeat: 1
+  LetterPerBeat: 2
 --- !u!222 &1750662149
 CanvasRenderer:
   m_ObjectHideFlags: 0

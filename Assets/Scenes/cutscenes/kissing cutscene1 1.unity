@@ -5739,8 +5739,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 22.132385, y: -136.03334}
-  m_SizeDelta: {x: -284.4286, y: -368.0385}
+  m_AnchoredPosition: {x: 21.551025, y: -299}
+  m_SizeDelta: {x: -434.27844, y: -676.2465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746087270
 MonoBehaviour:
@@ -5833,7 +5833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TEXT: "+oh how my eyes longed to see you \xFC \xFC-I missed you too... If it wasn't
     for your letters i wouldn't be here "
-  framePerBeat: 10
+  framePerBeat: 2
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:
@@ -5926,7 +5926,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 150.47375, y: 99.78401, z: 136.42126, w: 99.55487}
+  m_margin: {x: 171.27277, y: 258.6125, z: 253.65186, w: 150.6069}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -5731,7 +5731,7 @@ MonoBehaviour:
     going to give you the biggest squeeze. To feel your heart beating though mine
     is my only remedy in this cold, freezing, damned place. Keep safe. \xFC \xFC
     All my heart, "
-  framePerBeat: 5
+  framePerBeat: 2
   LetterPerBeat: 1
 --- !u!222 &1750662149
 CanvasRenderer:
@@ -5824,7 +5824,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.3058624, y: 48.974823, z: 89.76276, w: 96.83029}
+  m_margin: {x: -1.3058624, y: 16.51358, z: 19.194885, w: 22.02832}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
